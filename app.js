@@ -1,5 +1,6 @@
-/*let add = (x, y) => {
-  return x + y;
-}
+let spellCheck = (word) => {
+  return word;
+};
 
-module.exports = add; */
+
+module.exports = spellCheck; 

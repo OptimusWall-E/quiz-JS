@@ -1,8 +1,9 @@
-/* let Add = require("../app");
 
-describe("Add functionality", () => {
-    it("calculates x + y = z", () => {
-      expect(Add(10, 5)).toEqual(15);
-    });
+let spellCheck = require("../app");
 
-}); */
+describe("Function returns outputs as expected", () => {
+  it("takes a word and outputs it", () => {
+    expect(spellCheck("and")).toEqual("and");
+  });
+
+});
